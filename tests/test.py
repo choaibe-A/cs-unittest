@@ -51,4 +51,3 @@ def test_single_element():
     input_list = [42]
     expected_result = [42]
     assert frequency_sort(input_list) == expected_result
-    
