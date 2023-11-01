@@ -5,8 +5,10 @@ description = ""
 authors = ["choaibe-A <cbaine.baine@gmail.com>"]
 readme = "README.md"
 
+
+
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.8"
 
 
 [tool.poetry.group.dev]
@@ -22,9 +24,10 @@ black = "^23.9.1"
 optional = true
 
 [tool.poetry.group.docs.dependencies]
-Sphinx = ">=5.3"
-sphinx-rtd-theme = ">=1.1"
-sphinxcontrib-napoleon = ">=0.7"
+Sphinx = "^5.3"
+sphinx-rtd-theme = "^1.1"
+
+sphinxcontrib-napoleon = "^0.7"
 
 [tool.poetry.extras]
 docs = ["Sphinx", "sphinx-rtd-theme", "sphinxcontrib-napoleon"]
