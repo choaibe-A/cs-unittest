@@ -22,4 +22,3 @@ def frequency_sort(items):
 
 if __name__ == '__main__':
     frequency_sort(1)
-
