@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 
+[tool.poetry.dependencies]
+black = "^20.8b1"
 
 [tool.poetry.group.dev]
 optional = true
