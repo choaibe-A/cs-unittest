@@ -64,7 +64,7 @@ jobs:
       - name: Run tests
         run: |
           source .venv/bin/activate
-          poetry run coverage run -m pytest
+          poetry run coverage run -m pytest tests/test.py
           poetry run coverage report
       #----------------------------------------------
       #              Coverage badge
