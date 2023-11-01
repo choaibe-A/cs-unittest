@@ -20,5 +20,4 @@ def frequency_sort(items):
     sorted_items = sorted(items,key=custom_sort_key)
     return sorted_items
 
-if __name__ == '__main__':
-    frequency_sort(1)
+frequency_sort(1)
