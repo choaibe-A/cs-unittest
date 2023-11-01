@@ -52,7 +52,7 @@ jobs:
       - name: Run pylint for poetry project
         continue-on-error: true
         run: |
-          poetry run pylint ./cs-unittest/
+          poetry run pylint ./poetry_unittest/
           
       - name: Run pylint for tests
         continue-on-error: true
