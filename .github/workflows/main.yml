@@ -49,10 +49,10 @@ jobs:
       #----------------------------------------------
       #              run pylint
       #----------------------------------------------
-      - name: Run pylint for poetry_project
+      - name: Run pylint for poetry project
         continue-on-error: true
         run: |
-          poetry run pylint ./poetry_project/
+          poetry run pylint ./cs-unittest/
           
       - name: Run pylint for tests
         continue-on-error: true
