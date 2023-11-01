@@ -92,20 +92,4 @@ jobs:
         with:
           github_token: ${{ secrets.MY_GITHUB_TOKEN }}
           branch: ${{ github.ref }}
-          
-    #----------------------------------------------
-      # build documentation
-    #----------------------------------------------
-      - name: Build documentation
-        run: |
-          mkdir gh-pages
-          touch gh-pages/.nojekyll
-          cd docs/
-          poetry run make html
-          cp -r _build/html/* ../gh-pages/        
-      - name: Deploy documentation
-        if: ${{ github.event_name == 'push' }}
-        uses: JamesIves/github-pages-deploy-action@4.1.4
-        with:
-          branch: gh-pages
-          folder: gh-pages
+    
