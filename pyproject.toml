@@ -6,10 +6,7 @@ authors = ["choaibe-A <cbaine.baine@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-
-[tool.poetry.dependencies]
-black = "^20.8b1"
+python = "^3.8"
 
 [tool.poetry.group.dev]
 optional = true
