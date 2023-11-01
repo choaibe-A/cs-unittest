@@ -19,7 +19,7 @@ pytest = "^7.4.2"
 coverage = "^7.3.2"
 pylint = "^3.0.1"
 black = "^23.9.1"
-
+unittest = "^1.2.3"
 [tool.poetry.group.docs]
 optional = true
 
