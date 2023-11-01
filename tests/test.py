@@ -2,7 +2,6 @@
 
 import sys
 import os
-import pytest
 from poetry_unittest.function import frequency_sort
 
 # Get the current script's directory and add the parent directory (project root) to sys.path
@@ -52,7 +51,4 @@ def test_single_element():
     input_list = [42]
     expected_result = [42]
     assert frequency_sort(input_list) == expected_result
-
-# Run tests with pytest
-if __name__ == "__main__":
-    pytest.main()
+    
